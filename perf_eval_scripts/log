@@ -1,0 +1,199 @@
+number of threads: 00002, number of operations: 10000000
+sudo ./test/testStress/a.out 00002 00002 10000000 10000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00002.dat
+number of threads: 00005, number of operations: 1000000
+sudo ./test/testStress/a.out 00005 00005 1000000 1000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00005.dat
+number of threads: 00010, number of operations: 1000000
+sudo ./test/testStress/a.out 00010 00010 1000000 1000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00010.dat
+number of threads: 00050, number of operations: 100000
+sudo ./test/testStress/a.out 00050 00050 100000 100000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00050.dat
+number of threads: 00100, number of operations: 100000
+sudo ./test/testStress/a.out 00100 00100 100000 100000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00100.dat
+number of threads: 01000, number of operations: 10000
+sudo ./test/testStress/a.out 01000 01000 10000 10000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_01000.dat
+dataunit size: 0008
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0008 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0008.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0008 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0008.dat
+dataunit size: 0016
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0016 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0016.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0016 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0016.dat
+dataunit size: 0032
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0032 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0032.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0032 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0032.dat
+dataunit size: 0064
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0064 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0064.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0064 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0064.dat
+dataunit size: 0128
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0128 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0128.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0128 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0128.dat
+dataunit size: 0256
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0256 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0256.dat
+dataunit size: 0008
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0008 12000000000  > ./perf_eval_scripts/one_thread_writer_0008.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0008 12000000000  > ./perf_eval_scripts/one_thread_reader_0008.dat
+dataunit size: 0016
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0016 12000000000  > ./perf_eval_scripts/one_thread_writer_0016.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0016 12000000000  > ./perf_eval_scripts/one_thread_reader_0016.dat
+dataunit size: 0032
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0032 12000000000  > ./perf_eval_scripts/one_thread_writer_0032.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0032 12000000000  > ./perf_eval_scripts/one_thread_reader_0032.dat
+dataunit size: 0064
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0064 12000000000  > ./perf_eval_scripts/one_thread_writer_0064.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0064 12000000000  > ./perf_eval_scripts/one_thread_reader_0064.dat
+dataunit size: 0128
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0128 12000000000  > ./perf_eval_scripts/one_thread_writer_0128.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0128 12000000000  > ./perf_eval_scripts/one_thread_reader_0128.dat
+dataunit size: 0256
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0256 12000000000  > ./perf_eval_scripts/one_thread_writer_0256.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0256 12000000000  > ./perf_eval_scripts/one_thread_reader_0256.dat
+dataunit size: 0512
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 0512 12000000000  > ./perf_eval_scripts/one_thread_writer_0512.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 0512 12000000000  > ./perf_eval_scripts/one_thread_reader_0512.dat
+dataunit size: 1024
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 1024 12000000000  > ./perf_eval_scripts/one_thread_writer_1024.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 1024 12000000000  > ./perf_eval_scripts/one_thread_reader_1024.dat
+dataunit size: 2048
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 2048 12000000000  > ./perf_eval_scripts/one_thread_writer_2048.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 2048 12000000000  > ./perf_eval_scripts/one_thread_reader_2048.dat
+dataunit size: 4096
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 4096 12000000000  > ./perf_eval_scripts/one_thread_writer_4096.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 4096 12000000000  > ./perf_eval_scripts/one_thread_reader_4096.dat
+dataunit size: 8192
+sudo ./test/testStress/a.out 1 0 1000000000 0 1 1 1 8192 12000000000  > ./perf_eval_scripts/one_thread_writer_8192.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 1 1 1 8192 12000000000  > ./perf_eval_scripts/one_thread_reader_8192.dat
+number of threads: 00002
+sudo ./test/testStress/a.out 00002 0 1000000000 0 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_writer_00002.dat
+sudo ./test/testStress/a.out 0 00002 0 1000000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_reader_00002.dat
+number of threads: 00005
+sudo ./test/testStress/a.out 00005 0 1000000000 0 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_writer_00005.dat
+sudo ./test/testStress/a.out 0 00005 0 1000000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_reader_00005.dat
+number of threads: 00010
+sudo ./test/testStress/a.out 00010 0 1000000000 0 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_writer_00010.dat
+sudo ./test/testStress/a.out 0 00010 0 1000000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_reader_00010.dat
+number of threads: 00050
+sudo ./test/testStress/a.out 00050 0 1000000000 0 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_writer_00050.dat
+sudo ./test/testStress/a.out 0 00050 0 1000000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_reader_00050.dat
+number of threads: 00100
+sudo ./test/testStress/a.out 00100 0 1000000000 0 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_writer_00100.dat
+sudo ./test/testStress/a.out 0 00100 0 1000000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_reader_00100.dat
+number of threads: 01000
+sudo ./test/testStress/a.out 01000 0 1000000000 0 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_writer_01000.dat
+sudo ./test/testStress/a.out 0 01000 0 1000000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_reader_01000.dat
+dataunit size: 0008
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0008 12000000000  > ./perf_eval_scripts/one_thread_rw_0008.dat
+dataunit size: 0016
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0016 12000000000  > ./perf_eval_scripts/one_thread_rw_0016.dat
+dataunit size: 0032
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0032 12000000000  > ./perf_eval_scripts/one_thread_rw_0032.dat
+dataunit size: 0064
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0064 12000000000  > ./perf_eval_scripts/one_thread_rw_0064.dat
+dataunit size: 0128
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0128 12000000000  > ./perf_eval_scripts/one_thread_rw_0128.dat
+dataunit size: 0256
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0256 12000000000  > ./perf_eval_scripts/one_thread_rw_0256.dat
+dataunit size: 0512
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 0512 12000000000  > ./perf_eval_scripts/one_thread_rw_0512.dat
+dataunit size: 1024
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 1024 12000000000  > ./perf_eval_scripts/one_thread_rw_1024.dat
+dataunit size: 2048
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 2048 12000000000  > ./perf_eval_scripts/one_thread_rw_2048.dat
+dataunit size: 4096
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 4096 12000000000  > ./perf_eval_scripts/one_thread_rw_4096.dat
+dataunit size: 8192
+./test/testStress/a.out 1 1 10000000 10000000 1 1 1 8192 12000000000  > ./perf_eval_scripts/one_thread_rw_8192.dat
+number of threads: 00002, number of operations: 10000000
+sudo ./test/testStress/a.out 00002 00002 10000000 10000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00002.dat
+number of threads: 00005, number of operations: 1000000
+sudo ./test/testStress/a.out 00005 00005 1000000 1000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00005.dat
+number of threads: 00010, number of operations: 1000000
+sudo ./test/testStress/a.out 00010 00010 1000000 1000000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00010.dat
+number of threads: 00050, number of operations: 100000
+sudo ./test/testStress/a.out 00050 00050 100000 100000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00050.dat
+number of threads: 00100, number of operations: 100000
+sudo ./test/testStress/a.out 00100 00100 100000 100000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_00100.dat
+number of threads: 01000, number of operations: 10000
+sudo ./test/testStress/a.out 01000 01000 10000 10000 1 1 1 32 12000000000  > ./perf_eval_scripts/more_threads_rw_01000.dat
+dataunit size: 0008
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0008 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0008.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0008 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0008.dat
+dataunit size: 0016
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0016 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0016.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0016 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0016.dat
+dataunit size: 0032
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0032 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0032.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0032 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0032.dat
+dataunit size: 0064
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0064 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0064.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0064 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0064.dat
+dataunit size: 0128
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0128 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0128.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0128 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0128.dat
+dataunit size: 0256
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0256 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0256.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0256 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0256.dat
+dataunit size: 0512
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 0512 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_0512.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 0512 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_0512.dat
+dataunit size: 1024
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 1024 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_1024.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 1024 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_1024.dat
+dataunit size: 2048
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 2048 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_2048.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 2048 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_2048.dat
+dataunit size: 4096
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 4096 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_4096.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 4096 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_4096.dat
+dataunit size: 8192
+sudo ./test/testStress/a.out 1 0 1000000000 0 0 0 1 8192 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_writer_8192.dat
+sudo ./test/testStress/a.out 0 1 0 1000000000 0 0 1 8192 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_reader_8192.dat
+number of threads: 00002
+sudo ./test/testStress/a.out 00002 0 1000000000 0 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_writer_00002.dat
+sudo ./test/testStress/a.out 0 00002 0 1000000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_reader_00002.dat
+number of threads: 00005
+sudo ./test/testStress/a.out 00005 0 1000000000 0 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_writer_00005.dat
+sudo ./test/testStress/a.out 0 00005 0 1000000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_reader_00005.dat
+number of threads: 00010
+sudo ./test/testStress/a.out 00010 0 1000000000 0 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_writer_00010.dat
+sudo ./test/testStress/a.out 0 00010 0 1000000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_reader_00010.dat
+number of threads: 00050
+sudo ./test/testStress/a.out 00050 0 1000000000 0 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_writer_00050.dat
+sudo ./test/testStress/a.out 0 00050 0 1000000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_reader_00050.dat
+number of threads: 00100
+sudo ./test/testStress/a.out 00100 0 1000000000 0 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_writer_00100.dat
+sudo ./test/testStress/a.out 0 00100 0 1000000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_reader_00100.dat
+number of threads: 01000
+sudo ./test/testStress/a.out 01000 0 1000000000 0 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_writer_01000.dat
+sudo ./test/testStress/a.out 0 01000 0 1000000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_reader_01000.dat
+dataunit size: 0008
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0008 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0008.dat
+dataunit size: 0016
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0016 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0016.dat
+dataunit size: 0032
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0032 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0032.dat
+dataunit size: 0064
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0064 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0064.dat
+dataunit size: 0128
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0128 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0128.dat
+dataunit size: 0256
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0256 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0256.dat
+dataunit size: 0512
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 0512 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_0512.dat
+dataunit size: 1024
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 1024 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_1024.dat
+dataunit size: 2048
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 2048 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_2048.dat
+dataunit size: 4096
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 4096 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_4096.dat
+dataunit size: 8192
+./test/testStress/a.out 1 1 10000000 10000000 0 0 1 8192 12000000000  > ./perf_eval_scripts/nonblocking_one_thread_rw_8192.dat
+number of threads: 00002, number of operations: 10000000
+sudo ./test/testStress/a.out 00002 00002 10000000 10000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_rw_00002.dat
+number of threads: 00005, number of operations: 1000000
+sudo ./test/testStress/a.out 00005 00005 1000000 1000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_rw_00005.dat
+number of threads: 00010, number of operations: 1000000
+sudo ./test/testStress/a.out 00010 00010 1000000 1000000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_rw_00010.dat
+number of threads: 00050, number of operations: 100000
+sudo ./test/testStress/a.out 00050 00050 100000 100000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_rw_00050.dat
+number of threads: 00100, number of operations: 100000
+sudo ./test/testStress/a.out 00100 00100 100000 100000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_rw_00100.dat
+number of threads: 01000, number of operations: 10000
+sudo ./test/testStress/a.out 01000 01000 10000 10000 0 0 1 32 12000000000  > ./perf_eval_scripts/nonblocking_more_threads_rw_01000.dat
